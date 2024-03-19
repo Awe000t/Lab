@@ -16,6 +16,7 @@ public class JPA01{
             }
             arr[i] = n;
         }
+        sc.close();
         System.out.printf("陣列中大於60有%.0f",over);
         System.out.printf("%n總合為%d",s);
         System.out.printf("%n平均值為%f",s/over);
