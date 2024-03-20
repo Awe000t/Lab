@@ -11,6 +11,7 @@ public class L4JPA02 {
             g = sc.nextDouble();
             s+=g;
         }
+        sc.close();
         System.out.print("人數:"+p);
         System.out.print("人數:"+s);
         System.out.print("人數:"+(float)s/p);
