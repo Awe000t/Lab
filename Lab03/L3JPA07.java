@@ -10,21 +10,19 @@ public class L3JPA07 {
             if(m==999){
                 break;
             }
-            System.out.println(compute.xx(m, n));
+            System.out.println(xx(m, n));
         }
         sc.close();
     }
-    public class compute{
-        public static int xx(int m,int n){
-            int l = 0;
-            l = Math.min(m,n);
-            while(l>0){
-                if (m%l==0 & n%l==0){
-                    break;
-                }
-                l--;
+    public static int xx(int m,int n){
+        int l = 0;
+        l = Math.min(m,n);
+        while(l>0){
+            if (m%l==0 & n%l==0){
+                break;
             }
-            return l;            
+            l--;
         }
+        return l;            
     }
 }
