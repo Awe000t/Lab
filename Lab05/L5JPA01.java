@@ -6,9 +6,9 @@ public class L5JPA01 {
         while (true) {
             System.out.print("Input n (0<=n<=16):");
             int n = sc.nextInt();
-            System.out.printf("%d的階乘 = %d\n",n,fac(n));
             if(n==999){
                 break;
+            System.out.printf("%d的階乘 = %d\n",n,fac(n));
             }
         }
         sc.close();
