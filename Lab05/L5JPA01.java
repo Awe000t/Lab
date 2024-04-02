@@ -8,8 +8,8 @@ public class L5JPA01 {
             int n = sc.nextInt();
             if(n==999){
                 break;
-            System.out.printf("%d的階乘 = %d\n",n,fac(n));
             }
+            System.out.printf("%d的階乘 = %d\n",n,fac(n));
         }
         sc.close();
     }
